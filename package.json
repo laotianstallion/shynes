@@ -1,24 +1,25 @@
 {
-  "name": "vicbid",
+  "name": "shynes",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "web.js",
+  "dependencies": {
+    "bower": "^1.7.9",
+    "express": "^4.14.0"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/laotianstallion/vicbid.git"
+    "url": "https://github.com/laotianstallion/shynes.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/laotianstallion/vicbid/issues"
+    "url": "https://github.com/laotianstallion/shynes/issues"
   },
-  "homepage": "https://github.com/laotianstallion/vicbid",
-  "dependencies": {
-    "angular-ui-router": "^0.3.1",
-    "express": "^4.14.0",
-    "gzippo": "^0.2.0"
-  }
+  "homepage": "https://github.com/laotianstallion/shynes",
+  "cacheDirectories": ["node_modules"]
 }
